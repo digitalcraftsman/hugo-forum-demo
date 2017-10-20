@@ -1,3 +1,22 @@
-baseURL = "http://example.org/"
+baseURL = "http://example.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Minimal"
+theme = "minimal"
+
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = -10
+
+
+[params]
+    author = "Calin Tataru"
+    description = "Personal blog theme powered by Hugo"
+    githubUsername = "#"
+    accent = "red"
+    showBorder = true
+    backgroundColor = "white"
+    font = "Raleway" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "solarized-dark"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
